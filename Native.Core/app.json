@@ -1,0 +1,50 @@
+{
+	"ret": 1,
+	"apiver": 9,
+	"name": "消息记录",
+	"version": "1.0.0",
+	"version_id": 1,
+	"author": "hamsterkingo",
+	"description": "消息记录查看",
+	"event": [
+		{
+			"id": 1,
+			"type": 21,
+			"name": "私聊消息处理",
+			"function": "_eventPrivateMsg",
+			"priority": 30000
+		},
+		{
+			"id": 2,
+			"type": 2,
+			"name": "群消息处理",
+			"function": "_eventGroupMsg",
+			"priority": 30000
+		},
+		{
+			"id": 3,
+			"type": 4,
+			"name": "讨论组消息处理",
+			"function": "_eventDiscussMsg",
+			"priority": 30000
+		}
+	],
+	"menu": [
+		{
+			"name": "设置A",
+			"function": "_menuA"
+		}
+	],
+	"status": [
+		{
+			"id": 1,
+			"name": "运行时间",
+			"title": "UPTIME",
+			"function": "_statusUptime",
+			"period": "1000"
+		}
+	],
+	"auth": [
+		30
+	]
+}
