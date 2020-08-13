@@ -2,8 +2,8 @@
 	"ret": 1,
 	"apiver": 9,
 	"name": "消息记录",
-	"version": "1.0.0",
-	"version_id": 1,
+	"version": "1.0.1",
+	"version_id": 2,
 	"author": "hamsterkingo",
 	"description": "消息记录查看",
 	"event": [
