@@ -278,7 +278,9 @@ public sealed class SQLiteHelper
     }
 
     /// <summary> 
-    /// 执行一个查询语句，返回一个包含查询结果的DataTable。 
+    /// 执行一个查询语句, 返回一个包含查询结果的DataTable
+    /// Author: Johnny
+    /// Time: 2020.08.13
     /// </summary> 
     /// <param name="sql">要执行的查询语句。</param> 
     /// <param name="parameters">执行SQL查询语句所需要的参数，参数必须以它们在SQL语句中的顺序为准。</param> 
